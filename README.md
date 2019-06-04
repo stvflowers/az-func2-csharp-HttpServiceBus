@@ -9,7 +9,7 @@ Output Binding: Service Bus Queue
 ### Summary
 RESTful Http endpoint that places the body of the Http request onto the Service Bus queue. In the case of my PoC, the body of the message is JSON. 
 
-#### Pre-requisites
+### Pre-requisites
 - Azure Function App 
   - Runtime version 2.0
   - C# Language
@@ -19,4 +19,8 @@ RESTful Http endpoint that places the body of the Http request onto the Service 
   - Queue
   - Shared Access Policy
 
+### Creating the outbound binding
+Under your Azure Function, select **Integrate**.  
+**+ New Output**  
+Enter the appropriate information for your Service Bus namespace, queue, and Shared Access Policy.
 
