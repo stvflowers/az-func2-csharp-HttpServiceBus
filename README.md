@@ -7,7 +7,7 @@ Input Binding: Http Trigger
 Output Binding: Service Bus Queue  
 
 ### Summary
-RESTful Http endpoint that places the body of the Http request onto the Service Bus queue. In the case of my PoC, the body of the message is JSON. 
+RESTful Http endpoint that places the body of the Http request onto the Service Bus queue. In the case of my PoC, the body of the message is JSON. The function **does not** run asynchronously. An asynchronous function does not support output bindings.
 
 ### Pre-requisites
 - Azure Function App 
