@@ -12,7 +12,7 @@
     },
     {
       "type": "serviceBus",
-      "connection": "message-bus_RootManageSharedAccessKey_SERVICEBUS",
+      "connection": "message-bus_AzFuncKey",
       "name": "outputSbQueue",
       "queueName": "test",
       "direction": "out"
