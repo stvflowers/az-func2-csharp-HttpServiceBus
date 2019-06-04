@@ -25,5 +25,6 @@ Under your Azure Function, select **Integrate**.
 Enter the appropriate information for your Service Bus namespace, queue, and Shared Access Policy.
 
 ### References
+Below URL contains information on retrieving messages from the Service Bus.
 [.NET Core Service Bus SDK Example](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues "Microsoft Docs Getting started with Service Bus queues")
 
