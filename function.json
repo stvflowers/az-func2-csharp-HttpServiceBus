@@ -1,0 +1,21 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "serviceBus",
+      "connection": "message-bus_RootManageSharedAccessKey_SERVICEBUS",
+      "name": "outputSbQueue",
+      "queueName": "test",
+      "direction": "out"
+    }
+  ]
+}
