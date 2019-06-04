@@ -3,7 +3,7 @@
 ### Info
 Platform: Azure Function runtime 2.0  
 Language: C#  
-Input Binding: Http Trigger  
+Trigger: Http
 Output Binding: Service Bus Queue  
 
 ### Summary
